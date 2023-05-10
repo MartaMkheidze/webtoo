@@ -9,7 +9,7 @@
     background-image: none;
     background-position: right;
     background-size: 622px 599px;
-    position: relative;
+    position: relative; 
 }
 nav{
     display: flex;
@@ -646,4 +646,14 @@ nav image{
     flex: none;
     order: 3;
     flex-grow: 0;
+}
+@media (max-width: 300px){
+    .header{
+        min-height: 100vh;
+        width: 50%;
+        background-image: none;
+        background-position: right;
+        background-size: 622px 599px;
+        position: relative; 
+    }
 }
